@@ -1,0 +1,11 @@
+{
+  "name": "Solidity Developer Certificate",
+  "description": "It is NFT about Certified Solidity Developer Danylo Pavenko",
+  "image_url": "https://bafybeibqlaqbdgx4uaxxgbor3tsepk2eboonlskfduwh7f5akzxypcgct4.ipfs.nftstorage.link/",
+  "image": "https://bafybeibqlaqbdgx4uaxxgbor3tsepk2eboonlskfduwh7f5akzxypcgct4.ipfs.nftstorage.link/",
+  "properties": {
+    "CertifiedPerson": "Danylo Pavenko"
+  },
+  "owner": "0xBb98061279Fea412DA438078bC37e77FC9d9C4ff",
+  "token_id": 0
+}
