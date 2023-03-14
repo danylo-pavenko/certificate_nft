@@ -11,7 +11,14 @@ async function main() {
   console.log('Begin deployment a NFT');
       
   const Factory = await new SolidityDeveloperCertificate__factory(signer).deploy();
+
+  const gasPrice = await ethers.provider.getGasPrice();
+
+  console.log(`Gas price: ${gasPrice.toString()}`);
+  console.log(`Deployment cost (without gas): ${ethers.utils.formatEther(gasPrice)} ETH`);
+
   const certificateNft = await Factory.deployed();
+  
   console.log('NFT deployed:', certificateNft.address);
 
   if (network.name != 'unknown') {
