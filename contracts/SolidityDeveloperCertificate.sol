@@ -10,6 +10,6 @@ contract SolidityDeveloperCertificate is ERC721, Ownable {
     }
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://bafkreif5kp6ifc3kejt4x23i23wl6c3qn4dfdpjvuu7qz3lphxirz4yxmm.ipfs.nftstorage.link/";
+        return "https://bafkreicyn3oc2jpjeklv7pavdgdvuhryilq6267ram6uyxrp3jihjrusny.ipfs.nftstorage.link/";
     }
 }
