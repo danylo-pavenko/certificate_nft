@@ -4,7 +4,7 @@ pragma solidity ^0.8.17;
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract SolidityDeveloperCertificate is ERC721, Ownable {
+contract SolidityDeveloperCertificate is ERC721 {
     constructor() ERC721("Solidity Developer Certificate", "SDC") {
         _safeMint(_msgSender(), 0);
     }
