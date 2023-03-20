@@ -3,4 +3,6 @@ A NFT with Certificate about Solidity Developer by Blockchain Consul for <b>Dany
 
 -----
 
-NFT contract address: <to_be_here>
+NFT contract address: 0xc05a8b36d05f9a2cde4F98Ba0f4A1EDc0A73CD92
+Etherscan: https://etherscan.io/address/0xc05a8b36d05f9a2cde4F98Ba0f4A1EDc0A73CD92
+
